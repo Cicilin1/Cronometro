@@ -13,7 +13,7 @@ Este é um cronômetro simples criado em HTML, CSS e JavaScript que permite que 
 
 ## Uso
 
-Para usar o cronômetro, basta clicar no botão "Iniciar" para começar a contagem do tempo. Você pode pausar a contagem a qualquer momento clicando em "Parar". Se desejar reiniciar o cronômetro, basta clicar em "Zerar".
+Para usar o cronômetro, basta clicar no botão "Iniciar" para começar a contagem do tempo. Você pode pausar a contagem a qualquer momento clicando em "Parar". Se desejar reiniciar o cronômetro, basta clicar em "Resetar".
 
 ## Como funciona
 
