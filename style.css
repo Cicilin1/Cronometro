@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@500;700&family=Prompt:wght@300;600&family=Quicksand:wght@400;700&family=Space+Grotesk:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: rgba(40, 40, 40, 1);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cronometro {
+    padding: 2rem;
+    margin-top: 6rem;
+    border-radius: 15px;
+}
+
+.timer {
+    display: flex;
+    font-size: 6rem;
+    color: #ffff;
+}
+
+.play,
+.reset,
+.pause {
+    margin: 1rem 0.3rem 0 0;
+    padding: 0.6rem 1rem;
+    border: none;
+    font-size: 1rem;
+
+    border-radius: 4px;
+    background-color: rgba(60, 60, 60, 1);
+    color: #ffff;
+
+}
+
+.play:hover,
+.reset:hover,
+.pause:hover {
+    background-color: #1a1818;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width:500px) {
+
+    .cronometro {
+        padding: 1rem;
+        margin-top: 6rem;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .timer {
+        display: flex;
+        font-size: 4.5rem;
+        color: #ffff;
+    }
+
+    .play,
+    .reset,
+    .pause {
+        margin: 1rem 0.3rem 0 0;
+        padding: 0.6rem 1rem;
+        border: none;
+        font-size: 1rem;
+
+        border-radius: 4px;
+        background-color: rgba(60, 60, 60, 1);
+        color: #ffff;
+
+    }
+
+    .play:hover,
+    .reset:hover,
+    .pause:hover {
+        background-color: #1a1818;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+
+
+}
