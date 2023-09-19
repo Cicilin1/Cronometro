@@ -2,7 +2,7 @@
 
 Este é um cronômetro simples criado em HTML, CSS e JavaScript que permite que você acompanhe o tempo.
 
-![Screenshot](link_para_a_imagem)
+![Screenshot](screenshots/screenshot.png){width=300px}
 
 ## Funcionalidades
 
