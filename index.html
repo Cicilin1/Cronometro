@@ -6,23 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cronômetro</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/chronometer.ico">
 </head>
 
 <body>
+    <header>
+        <h1>Cronômetro</h1>
+    </header>
 
     <div class="cronometro">
         <div class="timer">
             <div class="hours">00</div>:
             <div class="minutes">00</div>:
             <div class="secunds">00</div>
+            <div class="container2">
+                <div class="miliseconds">000</div>
+            </div>
         </div>
         <div class="buttons">
-            <button class="play" onclick="play()">INICIAR</button>
-            <button class="pause" onclick="pause()">PAUSE</button>
-            <button class="reset" onclick="reset()">RESETAR</button>
+            <button class="play">INICIAR</button>
+            <button class="return">RETOMAR</button>
+            <button class="pause">PAUSE</button>
+            <button class="reset">RESETAR</button>
         </div>
     </div>
 
+    <footer>
+        <h3>Cicilini Developer</h3>
+        <p>Desenvolvedor de aplicações e soluções web para transformar suas ideias em realidade.</p>
+        <ul class="socials">
+            <li><a href="mailto:cicilinideveloper@gmail.com" target="_blank"><img src="./assets/email.png"
+                        alt="link-email"></a></li>
+            <li><a href="https://www.linkedin.com/in/guilherme-cicilini/" target="_blank"><img
+                        src="./assets/linkedin.png" alt="link-linkedin"></a></li>
+            <li><a href="https://github.com/Cicilin1" target="_blank"><img src="./assets/github.png"
+                        alt="link-github"></a></li>
+        </ul>
+    </footer>
     <script src="./scripts.js"></script>
 </body>
 
